@@ -1,6 +1,8 @@
 require 'minitest/autorun'
 require_relative 'academic'
 
+#Comment for commit changes - exam finished at 11:44am. - William Croke (20062757)
+
 class TestSubject < MiniTest::Test
   def setup
     @subject = Subject.new 'Module 1',2,5
